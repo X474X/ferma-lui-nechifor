@@ -6,7 +6,7 @@ const grajdPig = document.querySelector(".grajd-pig")
 window.addEventListener("keypress", (event)=>{
     if(event.key==="w"){
         const image = document.createElement("img");
-        image.src = "./images/Cat.png";
+        image.src = "./Images/Cat.png";
         image.style.width = "70px";
         image.style.height = "70px";
         image.style.position = "absolute";
@@ -17,7 +17,7 @@ window.addEventListener("keypress", (event)=>{
     }
     if(event.key==="s"){
         const image = document.createElement("img")
-        image.src= "./images/Dog.png"
+        image.src= "./Images/Dog.png"
         image.style.width = "70px";
         image.style.height = "70px";
         image.style.position = "absolute";
@@ -28,7 +28,7 @@ window.addEventListener("keypress", (event)=>{
     }
     if(event.key==="d"){
         const image = document.createElement("img")
-        image.src= "./images/Pig.png"
+        image.src= "./Images/Pig.png"
         image.style.width = "70px";
         image.style.height = "70px";
         image.style.position = "absolute";
@@ -39,7 +39,7 @@ window.addEventListener("keypress", (event)=>{
     }
     if(event.key==="a"){
         const image = document.createElement("img")
-        image.src= "./images/Horse.png"
+        image.src= "./Images/Horse.png"
         image.style.width = "70px";
         image.style.height = "70px";
         image.style.position = "absolute";
